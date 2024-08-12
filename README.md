@@ -50,7 +50,7 @@ npm i dotenv
 npm i env-var  
 ```
 
-###dev 
+### dev 
 1. Change .env.template file name to .env
 2. Configure the environment variables
 
