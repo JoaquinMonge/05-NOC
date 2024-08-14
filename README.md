@@ -7,6 +7,7 @@
   - cron
   - dotenv
   - env-var
+  - nodemailer
 
 You can run npm install after cloning the project to install all the dependencies 
 
@@ -50,6 +51,11 @@ npm i dotenv
 npm i env-var  
 ```
 
+11. To send emails https://www.npmjs.com/package/nodemailer
+```
+npm i nodemailer
+```
+
 ### dev 
 1. Change .env.template file name to .env
 2. Configure the environment variables
@@ -59,3 +65,14 @@ This project uses the repository pattern.
 
 Use cases interact with the repository, and the repository accesses the data source. This approach provides a clear separation between the application logic and data access, making the system more modular and easier to maintain.
 
+Folder structure
+
+### Domain
+
+ Encapsulates the core business logic and rules of the application
+
+ ### Presentation 
+ Responsible for handling user interaction and presenting information back to the user. This is where the interaction with external systems happens.
+
+ ### Infraestructure
+ Provides the implementation details required to make the application run in a specific environment
