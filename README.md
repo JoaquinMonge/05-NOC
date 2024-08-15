@@ -56,6 +56,9 @@ npm i env-var
 npm i nodemailer
 ```
 
+12. ## Get Gmail Key
+[Google AppPasswords](https://myaccount.google.com/u/0/apppasswords)
+
 ### dev 
 1. Change .env.template file name to .env
 2. Configure the environment variables
