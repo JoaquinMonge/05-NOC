@@ -4,3 +4,8 @@
 {"message":"Service https://google.com working","level":"low","origin":"check-service.ts","createdAt":"2024-08-14T01:42:05.659Z"}
 {"message":"Service https://google.com working","level":"low","origin":"check-service.ts","createdAt":"2024-08-14T01:42:10.691Z"}
 {"message":"Service https://google.com working","level":"low","origin":"check-service.ts","createdAt":"2024-08-14T01:42:15.654Z"}
+{"message":"Email sent","level":"low","origin":"email.service.ts","createdAt":"2024-08-15T15:24:29.585Z"}
+{"message":"TypeError: Cannot read properties of undefined (reading 'saveLog')","level":"high","origin":" send-email-logs.ts","createdAt":"2024-08-15T15:39:47.775Z"}
+{"message":"Email sent","level":"low","origin":" send-email-logs.ts","createdAt":"2024-08-15T15:47:41.600Z"}
+{"message":"Email sent","level":"low","origin":" send-email-logs.ts","createdAt":"2024-08-15T15:48:18.766Z"}
+{"message":"Email sent","level":"low","origin":" send-email-logs.ts","createdAt":"2024-08-15T15:48:26.556Z"}

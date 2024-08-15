@@ -76,3 +76,10 @@ Folder structure
 
  ### Infraestructure
  Provides the implementation details required to make the application run in a specific environment
+
+## File structure explanation
+
+ 1. Config: global objects or configuration files. 
+ 2. Domain: rules the app will follow, data origins, how do models look, use cases
+ 3. Infrastructure: repository and datasource implementation, where the DB is connected. Repository interacts with the datasource.
+ 4. Presentation: User interaction

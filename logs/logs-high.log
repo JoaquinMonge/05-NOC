@@ -1,1 +1,2 @@
 {"message":"Service https://google.com working","level":"high","origin":"check-service.ts","createdAt":"2024-08-14T01:42:15.654Z"}
+{"message":"TypeError: Cannot read properties of undefined (reading 'saveLog')","level":"high","origin":" send-email-logs.ts","createdAt":"2024-08-15T15:39:47.775Z"}
